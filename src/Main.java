@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("task 1");
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
         System.out.println();
@@ -32,7 +32,7 @@ public class Main {
         System.out.println();
 
         System.out.println("task 6");
-        for (int i = 7; i <= 98;) {
+        for (int i = 7; i <= 98; ) {
             System.out.print(i + " ");
             i += 7;
         }
@@ -57,18 +57,15 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total2 += total2 * 0.01;
             total2 += 29000.0;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + (int)total2);
+            System.out.println("Месяц " + i + " сумма накоплений равна " + (int) total2);
         }
         System.out.println();
 
-        System.out.println("task 9");
+        System.out.println("task 10");
         for (int i = 1; i <= 10; i++) {
             int res = 2 * i;
             System.out.println("2*" + i + "=" + res);
         }
-        System.out.println();
-
-
 
     }
 }
